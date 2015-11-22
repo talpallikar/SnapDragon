@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+<meta charset=utf-8 />
+<title>SNAP Dragon</title>
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+  article, aside, figure, footer, header, hgroup, 
+  menu, nav, section { display: block; }
+</style>
+<script src="dragonscript.js"></script>
+</head>
+<body>
+<h1>Snap Dragon</h1>
+<h2>Your Image</h2>
+ <input type='file' onchange="readURL(this);" />
+    <img id="blah" src="#" alt="your image" />
+<div id="loading">"Have fun! Your image is loading!"<div id="loadbar">&nbsp;</div></div>
+
+<button type="button" onclick="simLoad('loadbar');">Go!</button>
+
+<script src="dragonscript.js"></script>
+
+
+</body>
+</html>
